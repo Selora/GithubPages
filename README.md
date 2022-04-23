@@ -10,16 +10,18 @@ Selora's cozy infosec lumbershack
 
 # Github Pages Dev Setup
 
+This setup allows you to have your GitHub pages website locally, show the output locally, edit everything from VSCode, and have a somewhat ressembling result when pushing to GitHub. There's some minor differences there and there, but overall it's pretty good.
+
 Site used as reference: 
 https://dfederm.com/creating-a-blog-using-github-pages/
 
 ## TODO On Github
 
-1. Create a repo yourUsername.github.io
+1. Create a repo \<yourUsername\>.github.io
 2. Rename the branch 'main' to 'source'
 2. Go to the repo settings, enable pages on the 'source' branch
 
-Your website is now available on yourUsername.github.io
+Your website is now available on \<yourUsername\>.github.io
 
 You now need to setup the dev env to go with it. You'd rather have that locally than using github's web editor...
 
