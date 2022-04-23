@@ -146,11 +146,13 @@ ol li { list-style-position: inside; list-style: decimal; padding-left: 3px; }
 
 dl dt { color: #303030; }
 
-footer { padding-top: 20px; padding-bottom: 30px; margin-top: 40px; font-size: 13px; color: #aaa; background: transparent url("../images/hr.png") 0 0 no-repeat; }
+.footer-not-footer { padding-top: 20px; padding-bottom: 30px; margin-top: 40px; font-size: 13px; color: #aaa; background: transparent url("../images/hr.png") 0 0 no-repeat; }
 
-footer a { color: #666; }
+.footer-not-footer a { color: #666; }
 
-footer a:hover { color: #444; }
+.footer-not-footer a:hover { color: #444; }
+
+.footer-not-footer { padding: 0; margin: 0; font: inherit; font-size: 100%; vertical-align: baseline; border: 0; display: block}
 
 /* MISC */
 .clearfix:after { display: block; height: 0; clear: both; visibility: hidden; content: '.'; }
