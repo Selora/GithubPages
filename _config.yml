@@ -21,7 +21,6 @@ baseurl: "" # the subpath of your site, e.g. / or /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: S3lora
 github_username:  Selora
-repository: Selora/GithubPages
 
 # Build settings
 markdown: kramdown
@@ -55,4 +54,4 @@ plugins:
 #  - vendor/cache/
 #  - vendor/gems/
 #  - vendor/ruby/
-theme: jekyll-theme-tactile
+#theme: jekyll-theme-tactile
