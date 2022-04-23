@@ -20,4 +20,4 @@ RUN echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
 RUN echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
 RUN GEM_HOME="$HOME/gems" PATH="$HOME/gems/bin:$PATH" gem install jekyll:'<4.0' bundler
 
-CMD jekyll new . && cp Gemfile.orig Gemfile && bundle update && bundle exec
+#CMD bundler update --bundler && --bundle update && bundle exec

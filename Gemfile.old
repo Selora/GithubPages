@@ -1,20 +1,3 @@
-# GithubPages
-Selora's cozy infosec lumbershack
-
-# Github Pages Dev Setup
-
-Site used as reference: 
-https://dfederm.com/creating-a-blog-using-github-pages/
-
-## Setup Docker Env
-
-With VSCode, use the Remote-Container extension and the `.devcontainer` and `Dockerfile` will take care of you.
-
-**If you're starting a new projet:**
-
-1. Create a new jekyll environment: `jekyll new .`
-2. Replace the Gemfile so it uses Github pages extensions: 
-```
 source "https://rubygems.org"
 
 # To update to the latest github dependencies run: `bundle update`
@@ -38,6 +21,3 @@ end
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
-```
-3. Download and install the gems: `bundle update`
-4. Run the project (It'll auto-refresh as you go): `bundle exec jekyll serve --drafts --livereload`
