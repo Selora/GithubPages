@@ -43,9 +43,8 @@
         </section>
 
         <div class="footer-not-footer">
-        {% if site.github.is_project_page %}
-          {{ site.title | default: site.github.repository_name }} is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a><br>
-        {% endif %}
+          {{ site.title | default: site.github.repository_name }} is maintained by <a href="https://github.com/{{ site.github_username }}">{{ site.github.owner_name }}</a><br>
+          Find me on <a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a><br>
         </div>
 
       </div>
