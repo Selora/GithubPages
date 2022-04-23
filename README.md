@@ -1,3 +1,10 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+---
+
 # GithubPages
 Selora's cozy infosec lumbershack
 
@@ -5,6 +12,16 @@ Selora's cozy infosec lumbershack
 
 Site used as reference: 
 https://dfederm.com/creating-a-blog-using-github-pages/
+
+## TODO On Github
+
+1. Create a repo <yourUsername>.github.io
+2. Rename the branch 'main' to 'source'
+2. Go to the repo settings, enable pages on the 'source' branch
+
+Your website is now available on <yourUsername>.github.io
+
+You now need to setup the dev env to go with it. You'd rather have that locally than using github's web editor...
 
 ## Setup Docker Env
 
