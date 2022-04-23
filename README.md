@@ -15,11 +15,11 @@ https://dfederm.com/creating-a-blog-using-github-pages/
 
 ## TODO On Github
 
-1. Create a repo <yourUsername>.github.io
+1. Create a repo yourUsername.github.io
 2. Rename the branch 'main' to 'source'
 2. Go to the repo settings, enable pages on the 'source' branch
 
-Your website is now available on <yourUsername>.github.io
+Your website is now available on yourUsername.github.io
 
 You now need to setup the dev env to go with it. You'd rather have that locally than using github's web editor...
 
@@ -31,6 +31,7 @@ With VSCode, use the Remote-Container extension and the `.devcontainer` and `Doc
 
 1. Create a new jekyll environment: `jekyll new .`
 2. Replace the Gemfile so it uses Github pages extensions: 
+
 ```
 source "https://rubygems.org"
 
@@ -56,5 +57,6 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 ```
+
 3. Download and install the gems: `bundle update`
 4. Run the project (It'll auto-refresh as you go): `bundle exec jekyll serve --drafts --livereload`
