@@ -16,7 +16,7 @@
 title: Selora's cozy infosec shack
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Sometimes I do nice things. 
+  Sometimes, I do nice things. 
 baseurl: "" # the subpath of your site, e.g. / or /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: S3lora
@@ -31,7 +31,7 @@ markdown: kramdown
 # Link to title instead of date
 permalink: /:title/
 # Number of blog post per page
-paginate: 5
+paginate: 15
 paginate_path: "/:num/"
 date_format: "%b %-d, %Y"
 
